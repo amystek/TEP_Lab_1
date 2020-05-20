@@ -1,8 +1,10 @@
-//
-// Created by Arkadiusz Mystek on 10/02/2020.
-//
+#pragma once
+#include <iostream>
+#include <stdio.h>
 
-#ifndef LAB_1_MAIN_H
-#define LAB_1_MAIN_H
+void v_alloc_table_add_5(int);
+bool b_alloc_table_2_dim(int***, int, int);
+bool b_dealloc_table_2_dim(int***, int, int);
 
-#endif //LAB_1_MAIN_H
+bool show(int*, int);
+bool show(int***, int, int);
